@@ -3,10 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Know about me, Ronald Diaz Zerpa. Father, husband, student of BYU's WDD 131 Dynamic Web Fundamentals and servant of God.">
+    <meta name="author" content="Ronald Diaz Zerpa">
+    <title>WDD 131 - Dynamic Web Fundamentals - Ronald Diaz Zerpa</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Ronald Diaz</h1>
-    
+    <header>
+        <span class="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng&id=p1-p5">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Ronald Diaz Zerpa</h1>
+        <div class="content">
+            <section class="card">
+                <h2>About Me</h2>
+                <div class="about-me">
+                    <div>
+                        <p>My name is Ronald, the elder of four siblings. 
+                            I live in Maracaibo, with my wife and my 5 years old son. 
+                            I work as an Analyst, collecting and analizing local business data for decision making.
+                            I love listening to music, watching sci-fi movies and series and learning about everything.<br>
+                            I am studying Software Development at BYU Idaho, and this is my work in progress for my Dynamic Web Fundamentals class!
+                        </p>
+                        <h3>Maracaibo, Venezuela</h3>
+                        <div class="city-container">
+                            <figure>
+                                <img class="flag" src="images/venezuelan-flag.svg" alt="Venezuelan flag">
+                                <figcaption>Venezuela's Flag</figcaption>
+                            </figure>
+                            <p>Maracaibo is a city in the state of Zulia, in Venezuela. In "The Beloved Land of the
+                            Sun", the warmth of its people and the iconic bridge over the lake merge under a
+                            radiant, never-ending sun. Maracaibo is considered the economic center of
+                            western Venezuela due to the petroleum industry that
+                            developed along the shores of Lake Maracaibo.</p>
+                        </div>
+                    </div>
+                    <img class="profile-picture" src="images/profile.jpg" alt="Ronald Diaz and family, posing for a funny familiar picture.">
+                </div>
+            </section>
+            <section class="card">
+                <h2>Web Dev Resources</h2>
+                <div class="resources">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum molestiae impedit aperiam ab fuga temporibus adipisci numquam voluptate, laborum assumenda culpa quas aliquid doloremque magni provident, facere suscipit? Quo, modi?</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Ronald Diaz Zerpa - ☀️ Maracaibo, Venezuela ☀️</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
