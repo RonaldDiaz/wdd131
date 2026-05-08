@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #7eb3df;
+    --text-light: #FFFFFF;
+    --heading-font: "Trebuchet MS", "Tahoma", sans-serif;
+    --body-font: "Roboto", "Geneva", sans-serif;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+header, main, footer {
+    width: 640px;
+    margin: 1rem auto;
+    border: 1px solid var(--shadow);
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: var(--text-light);
+}
