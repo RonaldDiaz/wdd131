@@ -1,0 +1,136 @@
+:root {
+    --dark-color: #22292b;
+    --medium-color: #4b585b;
+    --ligth-color: #f9fbfb;
+    --heading-font: "Ubuntu", "Tahoma", sans-serif;
+    --body-font: "Cabin", "Geneva", sans-serif;
+    --hover-color: #d0d6d8;
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--ligth-color);
+    color: var(--dark-color);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--medium-color);
+    font-family: var(--heading-font);
+    color: var(--ligth-color);
+}
+
+.title {
+   flex: 1 0 auto;
+   font-weight: 900;
+   font-size: 1.6rem;
+   padding: 1rem;
+}
+
+#menu {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 900;
+	border: 0;
+	background: none;
+	color: var(--text-light);
+    padding: 0 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+nav {
+    display: none;
+    flex: 1 1 100%;
+}
+
+nav.open {
+    display: block;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+    margin: 0 0.5rem;
+}
+
+.navigation a {
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: block;
+    padding: 0.6rem 0.2rem;
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+    transition: 0.3s;
+    border-radius: 100px;
+}
+
+.navigation a:hover {
+    color: var(--hover-color);
+    background-color: var(--dark-color);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1 {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+.picture-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+    grid-gap: 20px;
+    place-items: center;
+}
+
+.picture-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+figcaption {
+    font-size: 0.8rem;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: var(--ligth-color);
+    padding: 1rem;
+    text-align: center;
+}
