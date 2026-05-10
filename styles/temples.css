@@ -67,7 +67,7 @@ header {
 }
 
 
-.navigation {
+.nav {
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -75,12 +75,12 @@ header {
     margin-bottom: 1rem;
 }
 
-.navigation li {
+.nav li {
     flex: 1 1 auto;
     margin: 0 0.5rem;
 }
 
-.navigation a {
+.nav a {
     font-weight: 700;
     font-size: 1.1rem;
     display: block;
@@ -92,7 +92,7 @@ header {
     border-radius: 100px;
 }
 
-.navigation a:hover {
+.nav a:hover {
     color: var(--hover-color);
     background-color: var(--dark-color);
 }
