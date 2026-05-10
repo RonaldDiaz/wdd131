@@ -57,12 +57,12 @@ header {
 	content: "X";
 }
 
-nav {
+.responsive-nav {
     display: none;
     flex: 1 1 100%;
 }
 
-nav.open {
+.responsive-nav.open {
     display: block;
 }
 
@@ -72,6 +72,7 @@ nav.open {
     flex-direction: column;
     list-style: none;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 
 .navigation li {

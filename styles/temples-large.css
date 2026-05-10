@@ -3,12 +3,13 @@
         display: none;
     }
 
-    nav {
+    .responsive-nav {
         display: block;
         flex: 1 1 auto;
     }
 
     .navigation {
         flex-direction: row;
+        margin-bottom: 0;
     }
 }
