@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maracaibo, Venezuela | Dynamic Place Page</title>
+    <meta name="author" content="Ronald Diaz Zerpa">
+    <meta name="description"
+        content="Meet the Beloved Land of the Sun, Maracaibo, with this geographic and weather summary data.">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="sun left" src="images/sun-and-bolt.svg" alt="Sun and bolt from the city's flag">
+        <div class="title">
+            <h1>Maracaibo, Venezuela</h1>
+            <p>The Beloved Land of the Sun</p>
+        </div>
+        <img class="sun right" src="images/sun-and-bolt.svg" alt="Sun and bolt from the city's flag">
+    </header>
+    <main>
+        <picture class="background">
+            <source srcset="images/hero-large.webp" media="(min-width: 800px)">
+            <source srcset="images/hero-medium.webp" media="(min-width: 620px)">
+            <img src="images/hero-small.webp" alt="Colorful houses in Carabobo Street, Maracaibo.">
+        </picture>
+        <div class="cards-container">
+            <section class="data card">
+                <div class="card-title">
+                    <img class="card-title-icon" src="images/info-color.svg" alt="Info icon.">
+                    <h2>Data</h2>
+                </div>
+                <ul class="card-content">
+                    <li>🌎 Area: 1,393 km²</li>
+                    <li>🧑‍🧑‍🧒 Population: 1,982,045</li>
+                    <li>🪪 Demonym: Marabino</li>
+                    <li>💬 Language: Spanish</li>
+                    <li>🪙 Currency: Bolívar - VES</li>
+                    <li>🕑 Time Zone: VST (UTC-4)</li>
+                    <li>☎️ Area Code: (+58) 0261</li>
+                    <li>📬 Postal Code: 4001 to 4046</li>
+                </ul>
+            </section>
+            <section class="weather card">
+                <div class="card-title">
+                    <img class="card-title-icon" src="images/weather-color.svg" alt="Weather icon.">
+                    <h2>Weather</h2>
+                </div>
+                <ul class="card-content">
+                    <li>🌡️ Temperature: <span id="temperature"></span></li>
+                    <li>☀️ Conditions: <span id="conditions"></span></li>
+                    <li>💨 Wind: <span id="wind"></span></li>
+                    <li>🥶 Wind Chill: <span id="windChill"></span></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Ronald Diaz Zerpa - ☀️ Maracaibo, Venezuela ☀️</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

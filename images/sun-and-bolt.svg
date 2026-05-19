@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.06 326.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #ffcd05;
+      }
+    </style>
+  </defs>
+  <g id="Capa_3" data-name="Capa 3">
+    <g>
+      <g>
+        <g>
+          <rect class="cls-2" x="37.28" y="157.8" width="326.5" height="10.87"/>
+          <rect class="cls-2" x="37.27" y="157.8" width="326.5" height="10.87" transform="translate(-56.7 189.59) rotate(-45)"/>
+          <rect class="cls-2" x="37.26" y="157.79" width="326.49" height="10.87" transform="translate(-54.75 122.13) rotate(-30)"/>
+          <rect class="cls-2" x="195.09" y="-.02" width="10.87" height="326.49" transform="translate(-41.09 255.27) rotate(-60)"/>
+          <rect class="cls-2" x="195.11" y="-.02" width="10.87" height="326.5" transform="translate(-56.68 189.61) rotate(-45)"/>
+          <rect class="cls-2" x="37.26" y="157.8" width="326.49" height="10.87" transform="translate(-35.41 57.45) rotate(-15)"/>
+          <rect class="cls-2" x="195.09" y="-.03" width="10.87" height="326.49" transform="translate(-9.02 314.67) rotate(-75)"/>
+          <rect class="cls-2" x="195.08" width="10.87" height="326.5"/>
+          <rect class="cls-2" x="195.08" y=".02" width="10.87" height="326.49" transform="translate(-54.77 122.13) rotate(-30)"/>
+          <rect class="cls-2" x="37.26" y="157.82" width="326.49" height="10.87" transform="translate(-41.13 255.27) rotate(-60)"/>
+          <rect class="cls-2" x="195.08" y=".02" width="10.87" height="326.49" transform="translate(-35.42 57.46) rotate(-15)"/>
+          <rect class="cls-2" x="37.25" y="157.82" width="326.49" height="10.87" transform="translate(-9.08 314.66) rotate(-75)"/>
+        </g>
+        <g>
+          <rect class="cls-2" x="69.95" y="158.93" width="261.2" height="8.72" transform="translate(-51.6 220.79) rotate(-52)"/>
+          <rect class="cls-2" x="196.17" y="32.68" width="8.71" height="261.18" transform="translate(-18.41 25.66) rotate(-7)"/>
+          <rect class="cls-2" x="69.97" y="158.9" width="261.2" height="8.72" transform="translate(10.98 339.16) rotate(-82)"/>
+          <rect class="cls-2" x="69.93" y="158.92" width="261.19" height="8.72" transform="translate(-46.56 87) rotate(-22)"/>
+          <rect class="cls-2" x="69.91" y="158.88" width="261.18" height="8.71" transform="translate(-18.4 25.66) rotate(-7)"/>
+          <rect class="cls-2" x="69.93" y="158.91" width="261.19" height="8.72" transform="translate(-28.11 284.06) rotate(-67)"/>
+          <rect class="cls-2" x="69.91" y="158.91" width="261.18" height="8.72" transform="translate(-57.88 153.55) rotate(-37)"/>
+          <rect class="cls-2" x="196.22" y="32.63" width="8.72" height="261.2" transform="translate(-51.53 220.78) rotate(-52)"/>
+          <rect class="cls-2" x="196.19" y="32.6" width="8.72" height="261.2" transform="translate(11.02 339.08) rotate(-82)"/>
+          <rect class="cls-2" x="196.21" y="32.65" width="8.72" height="261.19" transform="translate(-46.55 87.02) rotate(-22)"/>
+          <rect class="cls-2" x="196.19" y="32.66" width="8.72" height="261.19" transform="translate(-28.08 284.07) rotate(-67)"/>
+          <rect class="cls-2" x="196.2" y="32.68" width="8.72" height="261.18" transform="translate(-57.87 153.58) rotate(-37)"/>
+        </g>
+      </g>
+      <circle class="cls-2" cx="200.53" cy="163.25" r="110.19"/>
+      <path class="cls-1" d="m4.95,85.85l195.31,123.4-8.83-41.89,88.69,50.95-42.69,10.48,163.63,80.7-62.77-58.9,37.74-4.68L141.33,108.73l10.48,33.06-67.76-42.69,48.22-6.33L0,16.97l46,66.96-41.04,1.92h0Z"/>
+    </g>
+  </g>
+</svg>
