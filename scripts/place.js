@@ -3,17 +3,17 @@ const conditionsField = document.querySelector("#conditions");
 const windField = document.querySelector("#wind");
 const windChillField = document.querySelector("#windChill");
 
-const temperature = 27;
+const temperature = 7;
 const conditions = "Clear";
 const windSpeed = 10;
 
 let windChillDisplay = "N/A";
 if (temperature <= 10 && windSpeed > 4.8) {
     const chill = calculateWindChill(temperature, windSpeed);
-    windChillDisplay = `${chill.toFixed(1)} °C`;
+    windChillDisplay = `${chill.toFixed(1)}°C`;
 }
 
-temperatureField.textContent = `${temperature} °C`;
+temperatureField.textContent = `${temperature}°C`;
 conditionsField.textContent = conditions;
 windField.textContent = `${windSpeed} Km/h`;
 windChillField.textContent = windChillDisplay;
