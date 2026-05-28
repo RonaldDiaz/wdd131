@@ -1,0 +1,63 @@
+:root {
+    --dark-color: #0D0D0D;
+    --emphasis-color: #FFCC05;
+    --light-color: #333;
+    --text-light: #FFFFFF;
+    --heading-font: "Montserrat", "Merriweather", sans-serif;
+    --body-font: "Ubuntu", "Cabin", sans-serif;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --shadow-dark: rgba(0, 0, 0, 0.5);
+    --glass: rgba(255, 255, 255, 0.4)
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5%;
+    font-family: var(--body-font);
+}
+
+table {
+    border: thin solid var(--shadow-dark);
+    box-shadow: 0 0 10px var(--shadow);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: 0.85rem;
+}
+
+th, td {
+    padding: 8px 16px;
+    border: 1px solid var(--shadow);
+}
+
+th {
+    background-color: var(--dark-color);
+    color: var(--text-light);
+    font-size: larger;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--shadow);
+}
+
+tbody td:first-child {
+    font-weight: bold;
+}
+
+thead tr:last-child th:not(:first-child) {
+    background-color: var(--light-color); /* Cambia por el color que desees */
+}
