@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <meta name="author" content="Ronald Diaz Zerpa">
+    <meta name="description"
+        content="A Picture Album, as an example of responsive design for web pages. JavaScript is used to place the images and info from a list.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <p class="title">Temple Album</p>
+        <button type="button" id="menu" aria-label="Main Menu" aria-expanded="false"></button>
+        <nav class="responsive-nav">
+            <ul class="nav">
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="old">Old</a></li>
+                <li><a href="#" id="new">New</a></li>
+                <li><a href="#" id="large">Large</a></li>
+                <li><a href="#" id="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="filter-name">All Temples</h1>
+        <h2 id="filter-description">Complete List of Temples</h2>
+        <div class="picture-container"></div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Ronald Diaz Zerpa - ☀️ Maracaibo, Venezuela ☀️</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

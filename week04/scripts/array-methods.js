@@ -10,7 +10,7 @@ const courses = [
 // 1️⃣ map() courses to subject list
 const mapAnswer = document.querySelector("#subjects");
 const subjects = courses.map(course => course.split(" ")[0]);
-mapAnswer.innerHTML = subjects.map(subject => `<li>${subject}`).join("");
+mapAnswer.innerHTML = subjects.map(subject => `<li>${subject}</li>`).join("");
 
 // *************************************************************************************
 const countries = [
