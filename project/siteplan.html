@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CostCraft | Site Plan</title>
+    <meta name="author" content="Ronald Diaz Zerpa">
+    <meta name="description" content="Siteplan for WDD 131 final project.">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/costcraft-logo.svg" alt="Costcraft Logo">
+        <h1>CostCraft Site Plan</h1>
+    </header>
+    <main>
+        <section id="overview" class="section-card">
+            <div class="section-header">
+                <span>01</span>
+                <h2>Overview</h2>
+            </div>
+            <div class="section-content">
+                <h3>Site Name</h3>
+                <p><strong>CostCraft</strong></p>
+                <p>This name represents the function of the site: a costing and pricing assistant for entrepreneurs.</p>
+                <h3>Site Purpose</h3>
+                <p>The goal of CostCraft is to help micro-entrepreneurs, artisans, crafters and creators to simplify
+                    product cost calculation. The website provides a clean and visual interface to help users calculate
+                    their direct materials, labor time and monthly overhead, and dynamically determine optimal retail
+                    prices based on their target profit margins.</p>
+                <h3>Scenarios</h3>
+                <p>CostCraft aims to help in scenarios like these: </p>
+                <div class="scenario">
+                    <h4>Scenario A</h4>
+                    <p class="scenario-title">A Craft Maker wants to know how much to charge for her new hand-crafted
+                        crochet bag design.</p>
+                    <p>The user navigates to the Cost Calculator page. They enter their hourly wage and monthly
+                        overhead. They add direct material costs (like yarn, zippers, leather handles) to a list. Using
+                        a profit margin slider, they adjust the margin to see how the selling price and profit change.
+                        They bookmark the calculation using localStorage to review or modify it later.</p>
+                </div>
+                <div class="scenario">
+                    <h4>Scenario A</h4>
+                    <p class="scenario-title">A Home Baker need to update the price of his cookie recipe, because the
+                        cost of chocolate chips
+                        increased.</p>
+                    <p>The user opens CostCraft on their mobile phone. The calculator retrieves their last-saved pricing
+                        calculations from localStorage, and they locate the "Chocolate Chips" material entry, update the
+                        cost, and immediately see the updated unit cost and updated suggested retail price, avoiding
+                        manual recalculations.</p>
+                </div>
+            </div>
+        </section>
+        <section id="design" class="section-card">
+            <div class="section-header">
+                <span>02</span>
+                <h2>Design</h2>
+            </div>
+            <div class="section-content">
+                <h3>Color Schema</h3>
+                <p>This color schema represents the purpose of the website, related to the money (green) and enthusiasm
+                    (orange). For background and font colors, a light grey and a dark color will be alternated to create
+                    contrast.
+                </p>
+                <div class="color-palette-container">
+                    <div class="color-card">
+                        <div class="color-swatch primary"></div>
+                        <div class="color-info">
+                            <h4>Primary Color</h4>
+                            <code>#06645C</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch accent"></div>
+                        <div class="color-info">
+                            <h4>Accent Color</h4>
+                            <code>#f59e0b</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch dark"></div>
+                        <div class="color-info">
+                            <h4>Dark Color</h4>
+                            <code>#0f172a</code>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch light"></div>
+                        <div class="color-info">
+                            <h4>Light Color</h4>
+                            <code>#f8fafc</code>
+                        </div>
+                    </div>
+                </div>
+                <h3>Typography</h3>
+                <p>The site will be using these fonts:</p>
+                <div class="typography-container">
+                    <div class="font-container">
+                        <h4 class="outfit">Outfit Sans-Serif (Bold/Semibold)</h4>
+                        <p>Clean font for headings, page titles and card titles.</p>
+                    </div>
+                    <div>
+                        <h4 class="inter">Inter Sans-Serif (Regular/Medium)</h4>
+                        <p>Optimal readability for body text, tables and forms.</p>
+                    </div>
+                </div>
+                <h3>Wireframes</h3>
+                <p>Home Page</p>
+                <img src="images/wireframe-home.svg" alt="Wireframe depicting the site's Home page.">
+                <p>Calculator Page</p>
+                <img src="images/wireframe-calculator.svg" alt="Wireframe depicting the site's Calculator page.">
+                <p>Contact Page</p>
+                <img src="images/wireframe-contact.svg" alt="Wireframe depicting the site's Contact form.">
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
