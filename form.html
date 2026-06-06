@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 - Dynamic Web Fundamentals | Product Review Form</title>
     <meta name="author" content="Ronald Diaz Zerpa">
     <meta name="description"
         content="A Product Review Form, designed to put in practice good form design principles and specific field requirements.">
@@ -19,7 +19,7 @@
     </header>
     <main>
         <form action="review.html" method="get">
-            <label class="field-title">Product Name
+            <label for="product-select" class="field-title">Product Name
                 <select name="product-select" id="product-select" required>
                     <option value="" disabled selected>Select a Product ...</option>
                 </select>
@@ -37,20 +37,22 @@
                 <input type="radio" id="onestar" name="stars" value="1" required>
                 <label for="onestar"></label>
             </fieldset>
-            <label class="field-title">Date of Installation<input type="date" id="installDate" name="installDate"
-                    required></label>
+            <label for="installDate" class="field-title">Date of Installation<input type="date" id="installDate"
+                    name="installDate" required></label>
             <fieldset class="features">
                 <legend class="field-title">Which features did you find useful in the product? (Check all that apply)
                 </legend>
-                <label><input type="checkbox" id="durability" name="features" value="yes">Durability</label>
-                <label><input type="checkbox" id="easy" name="features" value="yes">Easy of Use</label>
-                <label><input type="checkbox" id="performance" name="features" value="yes">Performance</label>
-                <label><input type="checkbox" id="design" name="features" value="yes">Design</label>
+                <label for="durability"><input type="checkbox" id="durability" name="features"
+                        value="yes">Durability</label>
+                <label for="easy"><input type="checkbox" id="easy" name="features" value="yes">Easy of Use</label>
+                <label for="performance"><input type="checkbox" id="performance" name="features"
+                        value="yes">Performance</label>
+                <label for="design"><input type="checkbox" id="design" name="features" value="yes">Design</label>
             </fieldset>
-            <label class="field-title">Written Review <span class="optional">(Optional)</span>
+            <label for="review" class="field-title">Written Review <span class="optional">(Optional)</span>
                 <textarea id="review" name="review"></textarea>
             </label>
-            <label class="field-title">Your Name <span class="optional">(Optional)</span>
+            <label for="username" class="field-title">Your Name <span class="optional">(Optional)</span>
                 <input type="text" id="username" name="username">
             </label>
             <input type="submit" value="Post Review">
