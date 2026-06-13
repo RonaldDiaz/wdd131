@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CostCraft | Contact Us | Request Custom Templates</title>
+    <meta name="description"
+        content="Contact us or request custom costing spreadsheets, Excel sheets, or Google Sheets templates designed for your business sector. Contact CostCraft for support.">
+    <meta name="author" content="Ronald Diaz Zerpa">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/costcraft.css">
+    <script src="scripts/costcraft.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <img class="logo-icon" src="images/costcraft-logo.svg" alt="CostCraft logo">
+                <span class="logo-text">CostCraft</span>
+            </a>
+            <button id="menu" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </button>
+            <nav id="primaryNav">
+                <ul>
+                    <li><a href="index.html" id="navHome">Home</a></li>
+                    <li><a href="calculator.html" id="navCalc">Cost Calculator</a></li>
+                    <li class="active"><a href="contact.html" id="navContact">Request Templates</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section-hero">
+            <h1>Request Custom Templates</h1>
+            <p>Do you need a customized template for your kind of business? Send us your business type, and we will
+                email you a spreadsheet specifically designed for your working area.</p>
+        </section>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="card">
+                    <h2>Custom Templates</h2>
+                    <p>If our online calculator is too simple or you need a spreadsheet to keep track of monthly
+                        expenses, labor costs, or inventory, we can help you.</p>
+                    <div class="contact-methods-list">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <img src="images/mail.svg" alt="" aria-hidden="true" loading="lazy" width="20"
+                                    height="20">
+                            </div>
+                            <div class="contact-method-text">
+                                <h3>Email</h3>
+                                <p>email@costcraft.com.ve</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <img src="images/phone.svg" alt="" aria-hidden="true" loading="lazy" width="20"
+                                    height="20">
+                            </div>
+                            <div class="contact-method-text">
+                                <h3>Phone</h3>
+                                <p>+58 0212-1234567</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <img src="images/address.svg" alt="" aria-hidden="true" loading="lazy" width="20"
+                                    height="20">
+                            </div>
+                            <div class="contact-method-text">
+                                <h3>Visit Us</h3>
+                                <p>25th St. & 5th Ave., El Milagro Sector, Santa Lucía Parish. Maracaibo, Zulia State,
+                                    Venezuela.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="formCard">
+                <h2>Request Form</h2>
+                <form action="contact.html" method="POST" id="form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name <span class="required">*</span></label>
+                        <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailAddress">Email Address <span class="required">*</span></label>
+                        <input type="email" id="emailAddress" name="emailAddress" required
+                            placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessType">Business Sector <span class="required">*</span></label>
+                        <select id="businessType" name="businessType" required>
+                            <option value="" disabled selected>Select sector...</option>
+                            <option value="baking">Bakery & Food Craft</option>
+                            <option value="handcrafts">Handmade Crafts & Pottery</option>
+                            <option value="apparel">Textiles & Apparel</option>
+                            <option value="digital">Digital Assets & Design</option>
+                            <option value="other">Other Services/Goods</option>
+                        </select>
+                    </div>
+                    <fieldset>
+                        <legend>Format Preference</legend>
+                        <label for="excel"><input type="radio" name="format" id="excel" value="Microsoft Excel"
+                                checked>Microsoft Excel Document</label>
+                        <label for="googleSheets"><input type="radio" name="format" id="googleSheets"
+                                value="Google Sheets">Google Sheets Link</label>
+                    </fieldset>
+                    <div class="form-group">
+                        <label for="extraDetails">Details <span class="label-hint">Optional</span></label>
+                        <textarea id="extraDetails" name="extraDetails" rows="4"
+                            placeholder="Give us some details about your materials or production size..."></textarea>
+                    </div>
+                    <div class="submit-container">
+                        <button class="btn btn-primary" type="submit" id="btnSubmitForm">
+                            Request your Template
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; <span id="currentYear"></span> Ronald Diaz Zerpa | CostCraft</p>
+            <p>BYU WDD 131 Project | <a href="references.html">References</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

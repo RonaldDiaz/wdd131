@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CostCraft | Costing & Pricing Assistant for Entrepreneurs | Index</title>
+    <meta name="description"
+        content="Craft your product's cost structure with CostCraft! CostCraft is made to help small entrepreneurs and creators pricing their products accurately by providing tools to calculate direct costs, labor and profit margins.">
+    <meta name="author" content="Ronald Diaz Zerpa">
+    <link rel="stylesheet" href="styles/costcraft.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/costcraft.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <img class="logo-icon" src="images/costcraft-logo.svg" alt="CostCraft logo">
+                <span class="logo-text">CostCraft</span>
+            </a>
+            <button id="menu" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </button>
+            <nav id="primaryNav">
+                <ul>
+                    <li class="active"><a href="index.html" id="navHome">Home</a></li>
+                    <li><a href="calculator.html" id="navCalc">Cost Calculator</a></li>
+                    <li><a href="contact.html" id="navContact">Request Templates</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section-hero">
+            <h1>Price Your Products with Confidence</h1>
+            <p>Stop guessing your prices. Calculate your direct costs, labor time and overhead, and determine your
+                optimal profit margins with ease.</p>
+        </section>
+        <div class="cta-container">
+            <a href="calculator.html" class="btn btn-primary">
+                Start Cost Calculation
+            </a>
+        </div>
+        <section class="card info">
+            <div>
+                <h2>Designed for Modern Makers & Creators</h2>
+                <p>Whether you bake artisan bread, sew custom clothing, paint canvases, or
+                    develop digital templates, pricing is the foundation of a sustainable business.<br><br>CostCraft
+                    does
+                    the math for you, letting you save your calculation directly on your device so you can
+                    update prices as raw material costs change.</p>
+            </div>
+            <div>
+                <img src="images/artisan.webp" alt="Artisan working in a workshop" loading="lazy" width="600"
+                    height="400">
+            </div>
+        </section>
+        <section class="grid-cards">
+            <div class="card feature-card">
+                <div class="feature-icon">
+                    <img src="images/material.svg" alt="" aria-hidden="true" loading="lazy" width="40" height="40">
+                </div>
+                <h2>Direct Materials</h2>
+                <p>List all raw ingredients, packaging, and parts that go into making your product. Track unit
+                    prices and quantities used to get a material cost sheet.</p>
+            </div>
+            <div class="card feature-card">
+                <div class="feature-icon">
+                    <img src="images/labor.svg" alt="" aria-hidden="true" loading="lazy" width="40" height="40">
+                </div>
+                <h2>Labor & Overhead</h2>
+                <p>Your time is valuable. Calculate your hourly wage and distribute monthly fixed costs (like
+                    software, rent, and utility bills) across your production.</p>
+            </div>
+            <div class="card feature-card">
+                <div class="feature-icon">
+                    <img src="images/slider.svg" alt="" aria-hidden="true" loading="lazy" width="40" height="40">
+                </div>
+                <h2>Profit Margin Slider</h2>
+                <p>Calculate your markups dynamically. Adjust your target margin percentage to instantly see
+                    the recommended retail and break-even price.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; <span id="currentYear"></span> Ronald Diaz Zerpa | CostCraft</p>
+            <p>BYU WDD 131 Project | <a href="references.html">References</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
